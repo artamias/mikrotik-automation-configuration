@@ -17,6 +17,14 @@ Login to the router using **Winbox, WebFig, or terminal**, then set a password a
 
 ---
 
+## IP Addressing Table
+
+| Interface  | IP Address     | Port   |
+|------------|----------------|--------|
+| bridge-WAN | 192.168.65.131 | ether1 |
+| bridge-LAN | 172.16.1.1     | ether2 |
+
+
 ## Project Goal
 
 The goal of this project is to simplify the initial configuration process of a MikroTik router.
