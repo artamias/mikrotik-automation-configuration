@@ -1,0 +1,39 @@
+# MikroTik Network Automation with Python
+
+This project shows how to automate basic MikroTik router configuration using Python.  
+Instead of configuring the router manually through CLI or Winbox, this script connects via SSH and pushes the configuration automatically.
+
+The automation is built using Python and Netmiko.
+
+---
+
+## Project Goal
+
+The goal of this project is to simplify the initial configuration process of a MikroTik router.
+
+With Python script, the router will automatically:
+
+- Create WAN bridge
+- Create LAN bridge
+- Add interfaces to the bridges
+- Configure DHCP Client for WAN
+- Enable NAT for internet access
+- Configure DNS server
+- Set LAN IP address
+- Create DHCP Server for LAN clients
+
+This kind of automation is useful when deploying multiple routers or when building automated network infrastructure.
+
+---
+
+## Technologies Used
+
+- Python
+- Netmiko
+- MikroTik RouterOS
+- SSH
+
+Python library used:
+
+- netmiko
+
