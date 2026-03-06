@@ -32,8 +32,6 @@ With Python script, the router will automatically:
 - Set LAN IP address
 - Create DHCP Server for LAN clients
 
-This kind of automation is useful when deploying multiple routers or when building automated network infrastructure.
-
 ---
 
 ## Technologies Used
