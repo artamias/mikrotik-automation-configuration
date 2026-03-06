@@ -2,9 +2,9 @@ from netmiko import ConnectHandler
 
 mikrotik_router = {
     'device_type': 'mikrotik_routeros', 
-    'host': '192.168.65.131',
+    'host': 'your-mikrotik-IP',
     'username': 'admin',
-    'password': '123',
+    'password': '#your-password-mikrotik',
 }
 
 ConnectHandler = ConnectHandler(**mikrotik_router)
@@ -22,4 +22,5 @@ command = [
     'ip dhcp-server network add address=172.16.1.0/24 gateway=172.16.1.1 dns-server=8.8.8.8,8.8.4.4'
 ]
 output = ConnectHandler.send_config_set(command)
+
 print(output)
