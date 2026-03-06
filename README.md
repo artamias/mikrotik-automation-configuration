@@ -7,6 +7,15 @@ The automation is built using Python and Netmiko.
 
 ---
 
+## ⚠️ Note (Initial Router Setup)
+
+Before running the automation script, make sure the router can be accessed via SSH.
+
+A new MikroTik router usually has **no password and no proper management IP**, so you need to configure it manually first.
+
+Login to the router using **Winbox, WebFig, or terminal**, then set a password and management IP.
+
+
 ## Project Goal
 
 The goal of this project is to simplify the initial configuration process of a MikroTik router.
