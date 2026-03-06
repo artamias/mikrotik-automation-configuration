@@ -5,8 +5,6 @@ Instead of configuring the router manually through CLI or Winbox, this script co
 
 The automation is built using Python and Netmiko.
 
----
-
 ## ⚠️ Note (Initial Router Setup)
 
 Before running the automation script, make sure the router can be accessed via SSH.
@@ -15,6 +13,7 @@ A new MikroTik router usually has **no password and no proper management IP**, s
 
 Login to the router using **Winbox, WebFig, or terminal**, then set a password and management IP.
 
+---
 
 ## Project Goal
 
