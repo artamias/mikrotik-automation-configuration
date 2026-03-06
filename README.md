@@ -5,6 +5,8 @@ Instead of configuring the router manually through CLI or Winbox, this script co
 
 The automation is built using Python and Netmiko.
 
+---
+
 ## ⚠️ Note (Initial Router Setup)
 
 Before running the automation script, make sure the router can be accessed via SSH.
